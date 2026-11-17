@@ -6,9 +6,9 @@ A projector casts patterns onto an object while a camera captures them. A Python
 
 [Explore the 3D scans](https://math680.github.io/structured-light-3d-gallery/) · [View the source code](https://github.com/Math680/structured-light-3d-scanner)
 
-## Conway 99 — AI-driven formalization in Lean
+## Conway 99 — AI-driven research and Lean formalization
 
-Two AI-driven Lean and Mathlib developments formalize necessary properties of Conway’s hypothetical 99-vertex graph. The repository includes the preprint, both proof developments, and scripts to reproduce the verification.
+AI drove both the mathematical research into Conway’s hypothetical 99-vertex graph and the formalization of the results in Lean and Mathlib. The repository includes the preprint, both proof developments, and scripts to reproduce the verification.
 
 [Read the preprint](https://github.com/Math680/conway99-minimal-lean/blob/main/paper/Rannou_Conway99_Preprint.pdf) · [Explore the proofs](https://github.com/Math680/conway99-minimal-lean)
 
