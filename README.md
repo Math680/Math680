@@ -1,25 +1,25 @@
 Voici quelques projets sur lesquels j’ai travaillé, entre reconstruction 3D, maths et développement.
 
-## PRONTO — Reconstruction 3D
+## Structured-Light 3D Scanner
 
-Avec PRONTO, on a construit un prototype de scanner 3D à partir d’une caméra et d’un vidéoprojecteur. On projette des franges sur un objet, puis on utilise les images capturées pour reconstruire sa forme et ses couleurs. Le pipeline est en Python avec OpenCV, et l’interface de capture est en C#.
+A projector casts patterns onto an object while a camera captures them. A Python pipeline uses OpenCV to reconstruct the object as a color point cloud. A C# desktop app handles calibration and image capture.
 
-[Essayer la démo 3D](https://math680.github.io/pronto-reconstructions-3d/) · [Voir le code](https://github.com/Math680/Pronto-Imageur-3D)
+[Explore the 3D scans](https://math680.github.io/structured-light-3d-gallery/) · [View the source code](https://github.com/Math680/structured-light-3d-scanner)
 
-## Conway 99 — Maths et Lean
+## Conway 99 — AI-driven formalization in Lean
 
-J’ai étudié les propriétés que devrait avoir le graphe à 99 sommets de Conway s’il existe. J’ai mis en ligne le préprint et les deux formalisations en Lean qui l’accompagnent, avec les commandes pour vérifier les preuves.
+Two AI-driven Lean and Mathlib developments formalize necessary properties of Conway’s hypothetical 99-vertex graph. The repository includes the preprint, both proof developments, and scripts to reproduce the verification.
 
-[Lire le préprint](https://github.com/Math680/conway99-minimal-lean/blob/main/paper/Rannou_Conway99_Preprint.pdf) · [Voir les preuves](https://github.com/Math680/conway99-minimal-lean)
+[Read the preprint](https://github.com/Math680/conway99-minimal-lean/blob/main/paper/Rannou_Conway99_Preprint.pdf) · [Explore the proofs](https://github.com/Math680/conway99-minimal-lean)
 
 ## Telegram Codex Bridge
 
-J’ai fait ce bot pour pouvoir lancer Codex sur mon serveur Linux depuis Telegram. Je peux choisir le dossier du projet et reprendre une session depuis mon téléphone. Le bot est écrit en Python et tourne avec systemd.
+A self-hosted Python bot that runs Codex CLI on a Linux server from Telegram. It lets users switch between configured workspaces and resume sessions from their phone.
 
-[Voir le code](https://github.com/Math680/Telegram-Codex-Bridge)
+[View the source code](https://github.com/Math680/Telegram-Codex-Bridge)
 
 ## Inclusion Quest
 
-J’ai travaillé sur la version web d’un jeu coopératif de sensibilisation au handicap. On joue à plusieurs sur le même écran. On pioche une carte, puis le groupe discute des solutions possibles. Le navigateur s’occupe du plateau, du chronomètre et des scores.
+A cooperative browser game about disability inclusion. Players share a screen, draw scenario cards, and discuss possible responses. The app handles the board, timer, and scores.
 
-[Voir le jeu](https://github.com/Math680/InclusionQuest)
+[View the game](https://github.com/Math680/InclusionQuest)
